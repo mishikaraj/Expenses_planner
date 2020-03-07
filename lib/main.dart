@@ -55,13 +55,12 @@ class MyHomePage extends StatelessWidget {
               child: Container(
                 padding: EdgeInsets.all(10),
                 child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.end,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     TextField(
                       decoration: InputDecoration(labelText: 'Title'),
                       onChanged: (val) {
-                        titleInput:
-                        val;
+                        titleInput = val;
                       },
                     ),
                     TextField(
